@@ -58,6 +58,10 @@ function draw() {
   {
     text("Last Fed:12am",600,120);
   }
+   else if(lastFed===12)
+  {
+    text("Last Fed:12pm",600,120);
+  }
   else
   {
     text("Last Fed:"+lastFed+"am",600,120);
